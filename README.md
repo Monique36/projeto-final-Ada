@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # projeto-final-Ada
 Projeto Final Womakerscode
 # Ada Lovelace
