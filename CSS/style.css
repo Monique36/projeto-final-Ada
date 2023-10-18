@@ -1,0 +1,90 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #776EA6;
+    color: #333;
+}
+
+header {
+    background-color: #776EA6;
+    padding: 1em;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+main {
+    display: block;
+}
+/* Estilos da galeria com carrossel */
+.carousel img {
+    height: 500px;
+    object-fit: cover;
+    width: 400px;
+}
+
+.carousel {
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.carouselSite {
+    object-fit: cover;
+    width: 100px;
+    height: auto;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+}
+/* Estilos do quiz */
+.question {
+    margin-bottom: 20px;
+}
+
+/* Estilos da biografia */
+.bio {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Estilos do rodapé */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #776EA6;
+    color: #fff;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 5px;
+}
+
+/* Adicionando media queries para ajustar o tamanho das imagens em diferentes tamanhos de tela */
+@media(min-width: 1024px) {
+
+    .div-gallery,
+    .carouselSite,
+    .item.active {
+        overflow: hidden;
+
+        margin: 0 auto;
+    }
+
+
+}
